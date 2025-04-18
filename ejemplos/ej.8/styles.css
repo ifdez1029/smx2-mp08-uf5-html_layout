@@ -1,0 +1,32 @@
+body {
+    height: 100vh;
+    margin: 0;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+section {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article {
+    max-width: 100px;
+}
+
+article:nth-of-type(1) {
+    background-color: lightcoral;
+}
+
+article:nth-of-type(2) {
+    background-color: lightblue;
+}
+
+article:nth-of-type(3) {
+    background-color: lightsalmon;
+}
+
+article:nth-of-type(4) {
+    background-color: lightgoldenrodyellow;
+}
