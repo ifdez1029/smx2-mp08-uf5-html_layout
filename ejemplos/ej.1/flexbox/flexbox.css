@@ -1,0 +1,32 @@
+img {
+    width: 60px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(133, 133, 133);
+}
+
+/*
+div, span, img, p {
+    border: 1px solid green;
+}
+*/
