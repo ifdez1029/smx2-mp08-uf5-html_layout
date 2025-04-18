@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+article:first-child {
+    background-color: lightgoldenrodyellow;
+}
+
+article:nth-child(2) {
+    background-color: #ffc05a;
+    flex: auto;
+}
+
+article:last-child {
+    background-color: #ff6f6f;
+}
